@@ -1,0 +1,33 @@
+{
+  "name": "onepager-irjazoch",
+  "version": "1.0.0",
+  "description": "Onepager Medialab 2 IRJAZOCH",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrenePrins/Onepager-IRJAZOCH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrenePrins/Onepager-IRJAZOCH/issues"
+  },
+  "homepage": "https://github.com/IrenePrins/Onepager-IRJAZOCH#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.1",
+    "style-loader": "^1.2.1"
+  }
+}
