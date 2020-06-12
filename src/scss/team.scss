@@ -1,0 +1,14 @@
+.team {
+    padding: 0 50px;
+
+    &__title {
+        margin: 0 0 20px 0;
+    }
+
+    &-member {
+        &__text {
+            font-size: 50px;
+            margin: 10px 0;
+        }
+    }
+}
