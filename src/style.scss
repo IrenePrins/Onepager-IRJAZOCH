@@ -1,11 +1,17 @@
 @import "./scss/header.scss";
 
-body {
-    font-family: 'Oswald', sans-serif;
-}
+
+$green: #59C232;
+$purple: #813CC2;
+$red: #751613;
+$gray: #C4C4C4;
 
 h2 {
     font-size: 64px;
+}
+
+h3 {
+    font-size: 50px;
 }
 
 .bigger {
@@ -20,4 +26,19 @@ h2 {
 
 body {
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    &--green {
+        color: $green;
+    }
+
+    &--purple {
+        color: $purple;
+    }
+
+    &--red {
+        color: $red;
+    }
 }
