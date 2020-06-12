@@ -1,3 +1,9 @@
+@import "./scss/header.scss";
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 h2 {
     font-size: 64px;
 }
@@ -5,6 +11,11 @@ h2 {
 .bigger {
     font-size: 70px;
     padding-right: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 body {
