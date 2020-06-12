@@ -1,4 +1,5 @@
 @import "./scss/header.scss";
+@import "./scss/connect.scss";
 
 
 $green: #59C232;
@@ -11,7 +12,8 @@ h2 {
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .bigger {
